@@ -1,5 +1,4 @@
 # ToDo:
-# - summary/description
 # - where should Samples/ go ?
 %include	/usr/lib/rpm/macros.php
 %define         _class          Payment
@@ -7,6 +6,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
+Summary(pl):	%{_pearname} - tworzenie pliku clieop03 do wysy³ania Dutch Banku
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	1
@@ -26,6 +26,12 @@ a Dutch Bank. Ofcourse you need also a Dutch bank account.
 
 This class has in PEAR status: %{_status}.
 
+%description -l pl
+Te klasy potrafi± tworzyæ plik clieop03, które mo¿na wysy³aæ do
+Dutch Banku. Oczywi¶cie potrzebne jest jeszcze konto w Dutch Banku.
+
+Ta klasa ma w PEAR status: %{_status}.
+
 %prep
 %setup -q -c
 
@@ -40,4 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{php_pear_dir}/%{_class}
 %{php_pear_dir}/%{_class}/*.php
