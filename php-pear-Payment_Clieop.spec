@@ -11,7 +11,7 @@ Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
 Summary(pl):	%{_pearname} - tworzenie pliku clieop03 do wysy³ania Dutch Banku
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
-Release:	1
+Release:	2
 License:	PHP
 Group:		Development/Languages/PHP
 # Source0-md5:	89ce9d473c0cb61a0d18da6a7966389d
