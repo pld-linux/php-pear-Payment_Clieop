@@ -1,10 +1,12 @@
 # ToDo:
 # - where should Samples/ go ?
+
 %include	/usr/lib/rpm/macros.php
-%define         _class          Payment
-%define         _subclass       Clieop
+%define		_class		Payment
+%define		_subclass	Clieop
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
 Summary(pl):	%{_pearname} - tworzenie pliku clieop03 do wysy³ania Dutch Banku
 Name:		php-pear-%{_pearname}
