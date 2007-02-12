@@ -8,7 +8,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
-Summary(pl):	%{_pearname} - tworzenie pliku clieop03 do wysy³ania Dutch Banku
+Summary(pl.UTF-8):   %{_pearname} - tworzenie pliku clieop03 do wysyÅ‚ania Dutch Banku
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	4
@@ -30,9 +30,9 @@ a Dutch Bank. Ofcourse you need also a Dutch bank account.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Te klasy potrafi± tworzyæ plik clieop03, które mo¿na wysy³aæ do
-Dutch Banku. Oczywi¶cie potrzebne jest jeszcze konto w Dutch Banku.
+%description -l pl.UTF-8
+Te klasy potrafiÄ… tworzyÄ‡ plik clieop03, ktÃ³re moÅ¼na wysyÅ‚aÄ‡ do
+Dutch Banku. OczywiÅ›cie potrzebne jest jeszcze konto w Dutch Banku.
 
 Ta klasa ma w PEAR status: %{_status}.
 
