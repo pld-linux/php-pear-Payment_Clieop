@@ -8,7 +8,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
-Summary(pl.UTF-8):   %{_pearname} - tworzenie pliku clieop03 do wysyłania Dutch Banku
+Summary(pl.UTF-8):	%{_pearname} - tworzenie pliku clieop03 do wysyłania Dutch Banku
 Name:		php-pear-%{_pearname}
 Version:	0.1.1
 Release:	4
