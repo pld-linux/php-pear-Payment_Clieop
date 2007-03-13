@@ -14,8 +14,8 @@ Version:	0.1.1
 Release:	4
 License:	PHP
 Group:		Development/Languages/PHP
-# Source0-md5:	89ce9d473c0cb61a0d18da6a7966389d
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	89ce9d473c0cb61a0d18da6a7966389d
 URL:		http://pear.php.net/package/Payment_Clieop/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
