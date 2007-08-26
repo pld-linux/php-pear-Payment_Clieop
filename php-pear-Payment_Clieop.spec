@@ -4,18 +4,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Payment
 %define		_subclass	Clieop
-%define		_status		stable
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
 Summary(pl.UTF-8):	%{_pearname} - tworzenie pliku clieop03 do wysyłania Dutch Banku
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
-Release:	4
+Version:	0.1.2
+Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	89ce9d473c0cb61a0d18da6a7966389d
+# Source0-md5:	4e683c3f680ab8f33cae729846ed556b
 URL:		http://pear.php.net/package/Payment_Clieop/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
