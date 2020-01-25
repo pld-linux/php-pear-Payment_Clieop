@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		beta
 %define		_pearname	Payment_Clieop
 Summary:	%{_pearname} - create clieop03 file to send to Dutch Bank
